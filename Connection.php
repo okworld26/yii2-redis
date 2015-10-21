@@ -26,7 +26,7 @@ use yii\helpers\Inflector;
  *
  * @method mixed set($key, $value) Set the string value of a key
  * @method mixed get($key) Set the string value of a key
- * TODO document methods
+ * TODO document methods     
  *
  * @property string $driverName Name of the DB driver. This property is read-only.
  * @property boolean $isActive Whether the DB connection is established. This property is read-only.
