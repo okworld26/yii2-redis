@@ -293,7 +293,7 @@ class Connection extends Component
             \Yii::trace('Closing DB connection: ' . $connection, __METHOD__);
             $this->executeCommand('QUIT');
             stream_socket_shutdown($this->_socket, STREAM_SHUT_RDWR);
-            $this->_socket = null;
+            $this->_socket = false;
         }
     }
 
